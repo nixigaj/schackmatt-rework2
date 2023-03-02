@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4101f899-9f3d-4022-ae3d-18bea28b3655" name="Changes" comment="Merge upsteream" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LPv8UJOuMZteqvb1vGWiSEetMM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;19.7.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/nixigaj/dev/uni/pkd/schackmatt/dist&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/nixigaj/dev/uni/pkd/schackmatt/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
+      <recent name="$PROJECT_DIR$/node_modules/@types" />
+      <recent name="$PROJECT_DIR$/node_modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4101f899-9f3d-4022-ae3d-18bea28b3655" name="Changes" comment="" />
+      <created>1675785374425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675785374425</updated>
+      <workItem from="1675785376868" duration="44000" />
+      <workItem from="1675786255546" duration="428000" />
+      <workItem from="1675786880119" duration="1407000" />
+      <workItem from="1675789203050" duration="177000" />
+      <workItem from="1676911898670" duration="2581000" />
+      <workItem from="1676991470513" duration="4088000" />
+      <workItem from="1677513560740" duration="35000" />
+      <workItem from="1677513612191" duration="10458000" />
+      <workItem from="1677528307006" duration="7107000" />
+      <workItem from="1677595689183" duration="2862000" />
+      <workItem from="1677603543340" duration="6842000" />
+      <workItem from="1677624266065" duration="5397000" />
+      <workItem from="1677657572886" duration="14693000" />
+      <workItem from="1677673222492" duration="2269000" />
+      <workItem from="1677751845246" duration="2061000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add submodules">
+      <created>1675786436889</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675786436889</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add submodules">
+      <created>1675786539188</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675786539188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add lisence authors">
+      <created>1675786964145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675786964145</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add chess piece assets">
+      <created>1675787295007</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675787295007</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add chess piece asset license">
+      <created>1675787871700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675787871700</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update client submodule">
+      <created>1675787928544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675787928544</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Set up package stuff">
+      <created>1676995322483</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676995322483</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/types.d.ts" />
+        <option value="$PROJECT_DIR$/src/app.d.ts" />
+        <option value="$PROJECT_DIR$/src/types.d.ts.map" />
+        <option value="$PROJECT_DIR$/src/app.d.ts.map" />
+        <option value="$PROJECT_DIR$/src/dist/index.d.ts" />
+        <option value="$PROJECT_DIR$/src/dist/index.d.ts.map" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/schackmatt-client" />
+      <path value="$PROJECT_DIR$/schackmatt-server" />
+    </ignored-roots>
+    <MESSAGE value="Add submodules" />
+    <MESSAGE value="Add lisence authors" />
+    <MESSAGE value="Add chess piece assets" />
+    <MESSAGE value="Add chess piece asset license" />
+    <MESSAGE value="Update client submodule" />
+    <MESSAGE value="Set up package stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up package stuff" />
+  </component>
+</project>
