@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4101f899-9f3d-4022-ae3d-18bea28b3655" name="Changes" comment="Merge upsteream" />
+    <list default="true" id="4101f899-9f3d-4022-ae3d-18bea28b3655" name="Changes" comment="Merge upsteream">
+      <change afterPath="$PROJECT_DIR$/public/sound/plopp.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sound/wohoo.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/audio.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/timer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <list id="d3bca954-d7b9-47e1-af0a-f0c9c3166d90" name="Changes by Erik" comment="">
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +38,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/index.tsx">
+      <ranges>
+        <range start1="6" end1="7" start2="6" end2="7" changelist="4101f899-9f3d-4022-ae3d-18bea28b3655" />
+        <range start1="13" end1="13" start2="13" end2="15" changelist="d3bca954-d7b9-47e1-af0a-f0c9c3166d90" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/public/index.html">
+      <ranges>
+        <range start1="6" end1="7" start2="6" end2="7" changelist="4101f899-9f3d-4022-ae3d-18bea28b3655" />
+        <range start1="11" end1="11" start2="11" end2="12" changelist="d3bca954-d7b9-47e1-af0a-f0c9c3166d90" />
+        <range start1="12" end1="12" start2="13" end2="19" changelist="d3bca954-d7b9-47e1-af0a-f0c9c3166d90" />
+        <range start1="26" end1="27" start2="33" end2="34" changelist="d3bca954-d7b9-47e1-af0a-f0c9c3166d90" />
+      </ranges>
+    </file>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,31 +63,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;19.7.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/nixigaj/dev/uni/pkd/schackmatt/dist&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/nixigaj/dev/uni/pkd/schackmatt/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "javascript.nodejs.core.library.configured.version": "19.7.0",
+    "javascript.nodejs.core.library.typings.version": "18.14.2",
+    "last_opened_file_path": "/home/nixigaj/dev/uni/pkd/schackmatt/public/sound",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/nixigaj/dev/uni/pkd/schackmatt/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/sound" />
+      <recent name="$PROJECT_DIR$/src/media" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/node_modules/@types" />
-      <recent name="$PROJECT_DIR$/node_modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/sound" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/public" />
     </key>
   </component>
@@ -78,7 +120,11 @@
       <workItem from="1677624266065" duration="5397000" />
       <workItem from="1677657572886" duration="14693000" />
       <workItem from="1677673222492" duration="2269000" />
-      <workItem from="1677751845246" duration="2061000" />
+      <workItem from="1677751845246" duration="2286000" />
+      <workItem from="1677754596630" duration="2278000" />
+      <workItem from="1677927910170" duration="4771000" />
+      <workItem from="1678097365462" duration="2477000" />
+      <workItem from="1678102310687" duration="11915000" />
     </task>
     <task id="LOCAL-00001" summary="Add submodules">
       <created>1675786436889</created>
@@ -134,16 +180,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/types.d.ts" />
-        <option value="$PROJECT_DIR$/src/app.d.ts" />
-        <option value="$PROJECT_DIR$/src/types.d.ts.map" />
-        <option value="$PROJECT_DIR$/src/app.d.ts.map" />
-        <option value="$PROJECT_DIR$/src/dist/index.d.ts" />
-        <option value="$PROJECT_DIR$/src/dist/index.d.ts.map" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
