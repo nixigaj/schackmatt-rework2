@@ -47,6 +47,9 @@ interface ShortMove {
 
 function App() {
 
+    const timer: Timer = new Timer({})
+    timer.startTimer()
+
     const audio: GameSounds = new GameSounds()
 
     const [game, setGame] = useState(new Chess());
@@ -91,7 +94,9 @@ function App() {
                 <div id="logo-title">
                     ♟ schackmatt
                 </div>
-                <Timer/>
+                <div id="timer1">
+                    <Timer />
+                </div>
             </div>
             <div id="chess-pane">
                 Here is game information
