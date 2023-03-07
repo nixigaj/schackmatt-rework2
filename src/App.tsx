@@ -14,12 +14,14 @@ interface ShortMove {
 }
 
 function App() {
+    const INIT_TIME = 10;
+
     const checkTriggeredRef = useRef(false);
 
     const [currentPlayer, setCurrentPlayer] = useState("white");
+    const [gameStatus, setGameStatus] = useState("");
 
-    const [timer, setTimer] = useState(new Timer({secAmount: 180}, lossPopup));
-
+    const [timer, setTimer] = useState(new Timer({secAmount: INIT_TIME}, timeoutLoss));
 
     const audio: GameSounds = new GameSounds()
 
@@ -58,22 +60,38 @@ function App() {
     }
 
     function afterDrop() {
-        const timerCopy: Timer = Object.create(timer);
         audio.playMove()
-        timer.test++ // DEBUG
+
+        const timerCopy: Timer = Object.create(timer);
+
         timerCopy.togglePlayer()
+        if (timerCopy.activePlayer === "p1") {
+            setCurrentPlayer("white")
+        }
+        else {
+            setCurrentPlayer("black")
+        }
+
         setTimer(timerCopy)
         checkTriggeredRef.current = false
-        //checkCheck();
+        checkEnd()
     }
 
-    function lossPopup(looser: Player) {
-        console.log("Loosing player is " + looser)
+    function timeoutLoss(looser: Player) {
+        if
+        (looser === "p1") {
+            setGameStatus("Time out! White lost!")
+        }
+        else {
+            setGameStatus("Time out! Black lost!")
+        }
     }
 
     function resetGame() {
         setGame(new Chess());
-        setTimer(new Timer({secAmount: 180}, lossPopup));
+        setTimer(new Timer({secAmount: INIT_TIME}, timeoutLoss));
+        setCurrentPlayer("white")
+        setGameStatus("")
     }
 
     const checkCheck = useCallback(() => {
@@ -84,7 +102,6 @@ function App() {
                 console.log("Check!")
             }
         }
-        //else console.log("Not check")
     }, [game, checkTriggeredRef, audio]);
 
     // This is needed to be run every 0.5s to fix a bug with chess.js
@@ -97,7 +114,14 @@ function App() {
     }, [checkCheck]);
 
     function checkEnd() {
-
+        const possibleMoves = gameCopy.moves() as string[];
+        if (gameCopy.isGameOver() || gameCopy.isDraw() || possibleMoves.length === 0) {
+            console.log("Game over")
+            setGameStatus("Game over");
+            const timerCopy: Timer = Object.create(timer);
+            timerCopy.pause()
+            setTimer(timerCopy)
+        }
     }
 
     function delay(time: number) {
@@ -117,6 +141,9 @@ function App() {
             <div id="chess-pane">
                 <div id="playerTurn">
                     Current player is {currentPlayer}
+                </div>
+                <div id="gameStatus">
+                    {gameStatus}
                 </div>
                 <div id="timer1">
                     <ChessTimer timer={timer} setTimer={setTimer}/>

@@ -78,7 +78,7 @@ export class Timer {
         }
         const timeLeft = deadline - elapsed;
 
-        if (!this.finished && elapsed < 0) {
+        if (!this.finished && timeLeft < 0) {
             console.log("Time is up for " + player) // DEBUG
             this.finished = true;
             this.timeEnd(player)
