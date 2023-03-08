@@ -6,7 +6,7 @@ import {Player, Timer} from "./timer"
 import ChessTimer from './timer'
 import {GameSounds} from "./audio";
 
-interface ShortMove {
+export interface ShortMove {
     from: Square;
     to: Square;
     promotion?: string;
@@ -31,7 +31,7 @@ function App() {
         console.log(move);
         const result = gameCopy.move(move);
         setGame(gameCopy);
-        return result; // null if the move was illegal, the move object if the move was legal
+        return result; // null if the move was illegal, move the object if the move was legal
     }
 
     // This does a completely random move with no intelligence
@@ -118,6 +118,7 @@ function App() {
         if (gameCopy.isGameOver() || gameCopy.isDraw() || possibleMoves.length === 0) {
             console.log("Game over")
             setGameStatus("Game over");
+            audio.playCheckmate()
             const timerCopy: Timer = Object.create(timer);
             timerCopy.pause()
             setTimer(timerCopy)

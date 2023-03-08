@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+<img align="left" alt="Project icon" src="icon.svg" height="128" style="margin-right: 1rem"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Schackmatt
 
-## Available Scripts
+A web based chess game. Play with your friends on any device with a web browser supporting modern web standards. The entire game is currently client-side only, but multiplayer support is planned for the future. A live production demo is available at [schackmatt.junsved.se](https://schackmatt.junsved.se).
 
-In the project directory, you can run:
+## Building and running
+Only tested on Linux and macOS. [WSL](https://learn.microsoft.com/en-us/windows/wsl/install) is recommended for building and running on Windows.
 
-### `npm start`
+### Dependencies
+* Git
+* NodeJS
+* npm
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Build
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clone the repository using:
+```
+git clone https://github.com/nixigaj/schackmatt.git
+cd schackmatt
+```
 
-### `npm test`
+Build with `npm run build`. The resulting build is located inside the `./build` directory.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Run
 
-### `npm run build`
+Run the React server on port `3000` with `npm start`. Your instance should now be accessible at [`http://127.0.0.1:3000`](http://127.0.0.1:3000) in any modern web browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For production deployments it is recommended that you use a web server like [Nginx](https://nginx.org/) with a reverse proxy to provide TLS encryption.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Testing
+Run the test suite with `npm test`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+Copyright © 2022 Erik Junsved, Frithiof Georgii Hellberg and Martin Ek
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Licensed under the MIT license ([LICENSE](LICENSE))
