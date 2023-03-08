@@ -20,6 +20,8 @@ git clone https://github.com/nixigaj/schackmatt.git
 cd schackmatt
 ```
 
+Install the dependencies with `npm install`.
+
 Build with `npm run build`. The resulting build is located inside the `./build` directory.
 
 ### Run
