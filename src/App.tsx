@@ -5,7 +5,6 @@ import { Chessboard } from "react-chessboard";
 import {Player, Timer} from "./timer"
 import ChessTimer from './timer'
 import {GameSounds} from "./audio";
-import {wait} from "@testing-library/user-event/dist/utils";
 
 interface ShortMove {
     from: Square;
@@ -14,7 +13,7 @@ interface ShortMove {
 }
 
 function App() {
-    const INIT_TIME = 10;
+    const INIT_TIME = 180;
 
     const checkTriggeredRef = useRef(false);
 
@@ -73,13 +72,14 @@ function App() {
         }
 
         setTimer(timerCopy)
+
         checkTriggeredRef.current = false
+
         checkEnd()
     }
 
     function timeoutLoss(looser: Player) {
-        if
-        (looser === "p1") {
+        if (looser === "p1") {
             setGameStatus("Time out! White lost!")
         }
         else {
@@ -122,10 +122,6 @@ function App() {
             timerCopy.pause()
             setTimer(timerCopy)
         }
-    }
-
-    function delay(time: number) {
-        return new Promise(resolve => setTimeout(resolve, time));
     }
 
     return (

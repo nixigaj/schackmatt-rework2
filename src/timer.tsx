@@ -11,7 +11,7 @@ interface TimerProps {
 // Uses milliseconds as unit
 interface Itimer {
     active: boolean
-    startTime: number // Updates to Date.now() when activated
+    startTime: number // Updates to Date.now() when started
     PrevElapsed: number // Elapsed time from previous pause
     readonly deadline: number // Deadline for elapsed time
 }
@@ -235,11 +235,11 @@ function ChessTimer({timer, setTimer}: ChessTimerProps) {
 
     return (
         <div id="timerContainer">
-            <div id="p1container">
+            <div id="p2container">
                 Black time: <code id="timeDisplay"> {p2time}</code>
 
             </div>
-            <div id="p2container">
+            <div id="p1container">
                 White time: <code id="timeDisplay">{p1time}</code>
             </div>
             <button onClick={startTimer}>Start timer</button>
